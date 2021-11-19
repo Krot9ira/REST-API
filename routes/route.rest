@@ -1,0 +1,29 @@
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/users/61978bbbd0619fd3fc865044
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Danil",
+    "email": "kahasr@gmail.com",
+    "password": "201030lkm"
+}
+
+###
+
+DELETE http://localhost:3000/users/61978bbbd0619fd3fc865044
+
+###
+
+PATCH http://localhost:3000/users/619793a288690ba4c0caf2d9
+Content-Type: application/json
+
+{
+    "name": "Dan9i"
+}
